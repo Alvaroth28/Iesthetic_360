@@ -40,7 +40,7 @@ var APP_DATA = {
         {
           "yaw": 2.9704263751692395,
           "pitch": -0.45,
-          "title": "<i style=\"font-size: 13px; text-align: justify; background-color: rgba(58, 68, 84, 0.8);\"><span lang=\"ES-CO\" style=\"font-family: Arial, sans-serif;\">¡Bienvenida/o a Iesthetic!&nbsp;</span></i>",
+          "title": "<i style=\"font-size: 13px; text-align: justify; background-color: rgba(195, 4, 65, 0.8);\"><span lang=\"ES-CO\" style=\"font-family: Arial, sans-serif;\">¡Bienvenida/o a Iesthetic!&nbsp;</span></i>",
           "text": "<p class=\"MsoNormal\" style=\"text-align:justify;line-height:115%\"><i><span lang=\"ES-CO\" style=\"font-family:&quot;Arial&quot;,sans-serif\">Recorre nuestras instalaciones y conoce cada espacio donde vivirás experiencias\núnicas mientras te formas.</span></i></p>"
         },
       ]
