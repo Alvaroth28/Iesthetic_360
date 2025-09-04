@@ -38,11 +38,11 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 2.3141589209019875,
-          "pitch": -0.4137093992882086,
+          "yaw": 2.9704263751692395,
+          "pitch": -0.45,
           "title": "<i style=\"font-size: 13px; text-align: justify; background-color: rgba(58, 68, 84, 0.8);\"><span lang=\"ES-CO\" style=\"font-family: Arial, sans-serif;\">¡Bienvenida/o a Iesthetic!&nbsp;</span></i>",
           "text": "<p class=\"MsoNormal\" style=\"text-align:justify;line-height:115%\"><i><span lang=\"ES-CO\" style=\"font-family:&quot;Arial&quot;,sans-serif\">Recorre nuestras instalaciones y conoce cada espacio donde vivirás experiencias\núnicas mientras te formas.</span></i></p>"
-        }
+        },
       ]
     },
     {
@@ -69,8 +69,8 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": 2.202927384536909,
-        "pitch": 0.08277692479817667,
+        "yaw": -0.1,
+        "pitch": -0.0,
         "fov": 1.2603348696094558
       },
       "linkHotspots": [
@@ -101,12 +101,16 @@ var APP_DATA = {
           "text": "<p class=\"MsoNormal\" style=\"text-align:justify;line-height:115%\"><i style=\"font-family: inherit; font-size: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;\"><span lang=\"ES-CO\" style=\"font-family:&quot;Arial&quot;,sans-serif\">Aquí te damos la bienvenida\na Iesthetic. Nuestro equipo de recepción está listo para orientarte en todo lo\nque necesites al ingresar a nuestra institución.</span></i></p>"
         },
         {
-          "yaw": -0.5497984840217995,
-          "pitch": -0.1041505908103666,
+          "yaw": 0.25,
+          "pitch": -0.025,
           "title": "Cartera",
           "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">En esta área puedes &nbsp;resolver\ndudas sobre asesoría financiera sobre tus programas y cursos.</span></i><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\"><br></span></i></div><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Horarios: Lunes\na Sábado 8:00 a 12:00 – 2:00 a 6:00</span></i></div>"
-        }
-      ]
+        },{
+          "yaw": 2.7,
+          "pitch": -0.15,
+          "title": "Campaña de Referidos",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">No olvides que en Iesthetic puedes invitar a tus conocidos a estudiar y\nrecibir beneficios gracias a nuestra campaña ‘Refiere y Gana’</span></i>"
+        }, ]
     },
     {
       "id": "2-saln-prctico-de-peluqueria",
@@ -146,8 +150,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -1.3704603383146559,
-          "pitch": -0.24282143470979278,
+          "yaw": -1.3,
+          "pitch": -0.28,
           "title": "Salón Práctico de Peluquería",
           "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">En este salón desarrollarás tus habilidades en técnicas de corte, color\ny peinado. Mira el video para conocer una muestra de nuestras prácticas en\nacción</span></i>"
         }
@@ -207,7 +211,18 @@ var APP_DATA = {
           "target": "1-recepcin"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [ {
+          "yaw": -4.5,
+          "pitch": -0.15,
+          "title": "Campaña de Referidos",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">No olvides que en Iesthetic puedes invitar a tus conocidos a estudiar y\nrecibir beneficios gracias a nuestra campaña ‘Refiere y Gana’</span></i>"
+        },
+        {
+          "yaw": -3.8,
+          "pitch": -0.0,
+          "title": "Caja",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Aquí puedes realizar tus pagos en efectivo, tarjetas o transferencias.\nHorario 7:30 a 12:30 – 1:30 a 6:30</span></i>"
+        }]
     },
     {
       "id": "4-almacen",
@@ -256,7 +271,7 @@ var APP_DATA = {
     },
     {
       "id": "5-rea-acadmica",
-      "name": "Área Académica",
+      "name": "Matriculación",
       "levels": [
         {
           "tileSize": 256,
@@ -294,8 +309,8 @@ var APP_DATA = {
         {
           "yaw": 0.7269127038005188,
           "pitch": -0.05089674651860854,
-          "title": "Área Académica",
-          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Aquí podrás resolver inquietudes sobre tu proceso académico, calendario,\nbienestar académico, calificaciones y todo lo relacionado con tus clases y\nevaluaciones.</span></i><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\"><br></span></i></div><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Lunes a Sábado 8:00 a 12:30 – 1:30 a 6:30</span></i></div>"
+          "title": "Matriculación",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">En este espacio es donde formalizas financieramente tu procesos de matrícula y se te da información completa sobre tu programa de interés</span></i><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\"><br></span></i></div><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Lunes a Sábado 8:00 a 12:00 – 2:00 a 6:00</span></i></div>"
         }
       ]
     },
@@ -472,7 +487,7 @@ var APP_DATA = {
     },
     {
       "id": "9-matrcula-acadmica",
-      "name": "Matrícula Académica",
+      "name": "Coordinación Académica",
       "levels": [
         {
           "tileSize": 256,
@@ -510,8 +525,8 @@ var APP_DATA = {
         {
           "yaw": 0.2901323094347781,
           "pitch": -0.03455561185645095,
-          "title": "Matrícula Académica",
-          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">En este espacio formalizas académica tu proceso de matrícula y se te da\nla inducción a nuestra plataforma institucional .</span></i><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\"><br></span></i></div><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Lunes a Sábado 8:00 a 12:30\n– 1:30 a 6:30</span></i></div>"
+          "title": "Coordinación académica",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Aquí puedes consultar tus inquietudes, programaciones de clases , recuperaciones, prácticas preparatorias y más temas académicos.</span></i><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\"><br></span></i></div><div><i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">Lunes a Sábado 8:00 a 12:30\n– 1:30 a 6:30</span></i></div>"
         }
       ]
     },
@@ -553,8 +568,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 3.074297741893626,
-          "pitch": 0.2029807158206154,
+          "yaw": -0.08,
+          "pitch": -0.19,
           "title": "Salón de Estética",
           "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">En este salón vivirás la experiencia de aprender técnicas faciales,\ncorporales y de bienestar con atención a modelos reales</span></i>"
         }
@@ -647,7 +662,12 @@ var APP_DATA = {
           "target": "13-tercer-piso"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [ {
+          "yaw": 0.6,
+          "pitch": -0.0,
+          "title": "Campaña de Referidos",
+          "text": "<i><span lang=\"ES-CO\" style=\"font-size:12.0pt;\nfont-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-ansi-language:ES-CO;mso-fareast-language:EN-US;mso-bidi-language:\nAR-SA\">No olvides que en Iesthetic puedes invitar a tus conocidos a estudiar y\nrecibir beneficios gracias a nuestra campaña ‘Refiere y Gana’</span></i>"
+        }]
     },
     {
       "id": "13-tercer-piso",
@@ -707,7 +727,7 @@ var APP_DATA = {
     },
     {
       "id": "14-saln-prctico-de-maquillaje",
-      "name": "Salón Práctico de Maquillaje",
+      "name": "Salón Práctico de Maquillaje Artístico y Decorativo",
       "levels": [
         {
           "tileSize": 256,

@@ -42,6 +42,10 @@ a, a:hover, a:active, a:visited {
   overflow: hidden;
 }
 
+#pano canvas {
+  filter: brightness(1.08) contrast(1.1);/* Puedes ajustar el valor */
+}
+
 #titleBar {
   position: absolute;
   top: 0;
@@ -79,8 +83,8 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgb(0, 4, 54);
+  background-color: rgba(0, 4, 54,0.8);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -103,8 +107,8 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(0, 4, 54);
+  background-color: rgba(0, 4, 54, 0.8);
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +157,8 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(0, 4, 54);
+  background-color: rgba(0, 4, 54,0.8);
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +211,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(30, 32, 34);
+  background-color: rgba(30, 32, 34,0.8);
 }
 
 .mobile #sceneListToggle {
@@ -273,8 +277,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgb(30, 32, 34);
+  background-color: rgba(30, 32, 34,0.8);
 }
 
 .mobile #sceneList {
@@ -453,7 +457,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: rgb(195, 4, 65);
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
@@ -553,7 +557,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 40px;
   width: 40px;
   border-top-right-radius: 5px;
-  background-color: rgb(78,88,104);
+  background-color: rgb(195, 4, 65);
   visibility: hidden;
   -ms-transform: perspective(200px) rotateY(90deg);
   -webkit-transform: perspective(200px) rotateY(90deg);
